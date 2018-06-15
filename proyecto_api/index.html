@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <title>Api ejercicio - Paty Espinoza</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+
+
+    <div class="col-md-5" id="map"></div>
+
+    <div class="container col-md-5">
+    <h3>Actividad App Mapa / Clima</h3>
+      <select class="" id="select">
+        <option >Selecciona tu ubicación</option>
+        <option value="arica">Arica</option>
+        <option value="stgo">Santiago</option>
+        <option value="conce">Concepción</option>
+        <option value="valdi">Valdivia</option>
+      </select>
+     <h1 id="resumen" class="form-group"></h1>
+    <div class="col-md-offset-3 col-md-5">
+      <img src="" class="img-responsive">
+    </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="js/app.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAC63nL9Glip4axtnCB2qMtUvV17H5Og6I&callback=initMap"></script>
+
+
+  </body>
+</html>
